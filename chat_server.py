@@ -9,7 +9,7 @@ Each time a connection is received, it should create a new thread to handle that
 what that thread will need, at a minimum it should take the connection it is handling.
 
 A client should be prompted to enter their name for the chat server. Once they have entered it, all future messages
-they send should be relayed to the rest of the clients connected to the server, with the user's name prepended.
+they send should be relayed to the rest of the clients connected to the server, with gthe user's name prepended.
 
 Think about how this will be accomplished. You will likely need some sort of data structure to keep track of all
 connections that can be shared amount the threads. This data structure will need to be updated as new clients connect.
